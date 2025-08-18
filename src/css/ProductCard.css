@@ -1,64 +1,60 @@
-#light{
-    --cardBackGroundColor: #84B59F;
-    --cardBoarderColor: #69A297;
-    --imageBackGroundColor: #69a299;
-    --nameColor: black;
-    --priceColor: black;
+#light {
+  --cardBackGroundColor: #84b59f;
+  --cardBoarderColor: #69a297;
+  --imageBackGroundColor: #69a299;
+  --nameColor: black;
+  --priceColor: black;
 }
 
-#dark{
- --cardBackGroundColor: #001e45;
-    --cardBoarderColor: #002d67 ;
-    --imageBackGroundColor: #00193b;
-    --nameColor: white;
-    --priceColor: white;
+#dark {
+  --cardBackGroundColor: #001e45;
+  --cardBoarderColor: #002d67;
+  --imageBackGroundColor: #00193b;
+  --nameColor: white;
+  --priceColor: white;
 }
-
-
-
 
 .product-card {
-    background-color: var(--cardBackGroundColor);
-    border: 5px solid var(--cardBoarderColor);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
-    min-width: 90%;
-    max-height: 90%;    
-    margin: auto;
-
+  background-color: var(--cardBackGroundColor);
+  border: 5px solid var(--cardBoarderColor);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-width: 90%;
+  max-height: 90%;
+  margin: auto;
 }
-.product-image{
-    background-color: var(--imageBackGroundColor);
-    width: 300px;
-    height: auto;
-    display: flex;
+.product-image {
+  background-color: var(--imageBackGroundColor);
+  width: 300px;
+  height: auto;
+  display: flex;
 }
 .product-image img {
-    height: 80%; 
-    flex-grow: 1;
-    max-width: 80%;
-    margin:auto;
+  height: 80%;
+  flex-grow: 1;
+  max-width: 80%;
+  margin: auto;
 }
 
-.product-details{
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    padding: 10px;
-    justify-content: flex-start;
-    align-items: flex-start;
+.product-details {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .product-name {
-   color:   var(--nameColor);
-    display: flex;  
-    flex-grow: 1;
+  color: var(--nameColor);
+  display: flex;
+  flex-grow: 1;
 }
 
 .product-price {
-    color: var(--priceColor);
-    align-items: flex-end;
-    flex-grow: 1;
+  color: var(--priceColor);
+  align-items: flex-end;
+  flex-grow: 1;
 }

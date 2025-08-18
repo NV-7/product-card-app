@@ -1,36 +1,30 @@
-
-
-
-#light{
+#light {
   --backGroundColor: #ddd8c1;
   --productListColor: #a3c9a8;
 }
 
-#dark{
+#dark {
   --backGroundColor: #00132d;
   --productListColor: #001e45;
 }
 
-
-
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.button{
+.button {
   background-color: var(--productListColor);
   color: white;
-  border: none; 
+  border: none;
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
 }
-
 .app-wrapper {
   background-color: var(--backGroundColor);
   width: 95vw;
@@ -40,17 +34,17 @@ body {
   flex-direction: column;
   justify-content: flex-center;
   align-items: flex-center;
-  padding: 10px;  
+  padding: 10px;
 }
 .product-list {
-    background-color: var(--productListColor);
-    gap: 20px;  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-    width: 100%;
-    min-width: 800px;
-    height: auto;
-    margin: 0 auto;
+  background-color: var(--productListColor);
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  min-width: 800px;
+  height: auto;
+  margin: 0 auto;
 }
