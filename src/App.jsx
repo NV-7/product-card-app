@@ -30,7 +30,7 @@ function App() {
     <div id={darkMode} className="app-wrapper">
       <div className="button"> </div>
       <button onClick={toggleDarkMode}>
-        {darkMode === "dark" ? "Light" : "Dark"}
+        Change to {darkMode === "dark" ? "Light" : "Dark"}
       </button>
       <div className="product-list">
         {products.map((product) => (
