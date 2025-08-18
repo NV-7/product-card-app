@@ -1,5 +1,5 @@
 # Project-Card-App
-# By Navi Bountho 8/18/2025
+# By Navi Bountho
 The goal of this project is to practice using JavaScript, and React for web development. I created and styled a product card that displays a product with its images, name, and price.
 
 ## What I learned:
