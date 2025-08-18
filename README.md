@@ -21,3 +21,5 @@ Solution: I overcame this by taking the time to understand the properties that F
 
 Another issue I had was coming up with a design that displayed the Product Card. 
 Solution: To overcome this issue, I looked at different websites and used their designs for inspiration. For my design, I tried to recreate how Amazon displays their products when you search for an item. I also used a color palette generator that I found online to color the Product Card.
+
+![Product Card ScreenShot](/Screenshot 2025-08-18 120416.png)
