@@ -1,7 +1,5 @@
 # Project-Card-App
 # By Navi Bountho 8/18/2025
-
-
 The goal of this project is to practice using JavaScript, and React for web development. I created and styled a product card that displays a product with its images, name, and price.
 
 ## What I learned:
@@ -18,6 +16,8 @@ Learned how to create a Dark Mode theme using states in React. This taught me ho
 Example: App.jsx, using states, I was able to change the theme of the Product Card by using a button.
 
 ## Things I struggled with:
-My biggest struggle was styling the Product Card with CSS. I struggled to effectively use Flexbox to create a layout that I wanted. I overcame this by taking the time to understand the properties that Flexbox uses and how those worked.
+My biggest struggle was styling the Product Card with CSS. I struggled to effectively use Flexbox to create a layout that I wanted. 
+Solution: I overcame this by taking the time to understand the properties that Flexbox uses and how those worked.
 
-Another issue I had was coming up with a design that displayed the Product Card. To overcome this issue, I looked at different websites and used their designs for inspiration. For my design, I tried to recreate how Amazon displays their products when you search for an item. I also used a color palette generator that I found online to color the Product Card.
+Another issue I had was coming up with a design that displayed the Product Card. 
+Solution: To overcome this issue, I looked at different websites and used their designs for inspiration. For my design, I tried to recreate how Amazon displays their products when you search for an item. I also used a color palette generator that I found online to color the Product Card.
