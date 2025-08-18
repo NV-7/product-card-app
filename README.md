@@ -22,6 +22,15 @@ Solution: I overcame this by taking the time to understand the properties that F
 Another issue I had was coming up with a design that displayed the Product Card. 
 Solution: To overcome this issue, I looked at different websites and used their designs for inspiration. For my design, I tried to recreate how Amazon displays their products when you search for an item. I also used a color palette generator that I found online to color the Product Card.
 
+## Setup
+Must have Nodejs installed.
+Into the terminal:
+- npm install react@19.1.1 react-dom@19.1.1
+- npm install vite@7.1.0    
+To run type: npm run dev and click on the link
+
+
+
 ## Product Card 
 ![Product Card ScreenShot](/src/Images/ProductCardLightMode.png)
 ![Product Card ScreenShot](/src/Images/ProductCardDarkMode.png)
