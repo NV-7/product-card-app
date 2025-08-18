@@ -26,11 +26,17 @@
   max-height: 90%;
   margin: auto;
 }
+
 .product-image {
   background-color: var(--imageBackGroundColor);
   width: 300px;
   height: auto;
   display: flex;
+}
+.product-image:hover {
+  width: 320px;
+  height: auto;
+  transition: width 0.3s ease-in-out;
 }
 .product-image img {
   height: 80%;
@@ -52,9 +58,17 @@
   display: flex;
   flex-grow: 1;
 }
+.product-name:hover {
+  color: rgb(154, 85, 154);
+  cursor: pointer;
+}
 
 .product-price {
   color: var(--priceColor);
   align-items: flex-end;
   flex-grow: 1;
+}
+.product-price:hover {
+  color: rgb(154, 85, 154);
+  cursor: pointer;
 }

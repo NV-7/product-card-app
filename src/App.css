@@ -18,13 +18,12 @@ body {
 }
 
 .button {
-  background-color: var(--productListColor);
-  color: white;
-  border: none;
+  box-sizing: border-box;
   padding: 10px 20px;
   cursor: pointer;
   font-size: 16px;
 }
+
 .app-wrapper {
   background-color: var(--backGroundColor);
   width: 95vw;
@@ -34,7 +33,7 @@ body {
   flex-direction: column;
   justify-content: flex-center;
   align-items: flex-center;
-  padding: 10px;
+  padding: 5px;
 }
 .product-list {
   background-color: var(--productListColor);
